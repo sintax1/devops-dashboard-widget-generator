@@ -14,7 +14,7 @@ var annotateOptions = {
 };
 
 var templateOptions = {
-  root: '{widgetsPath}/<%= widgetName %>/src',
+  root: 'app/widgets/<%= widgetName %>/src',
   module: 'DevopsDashboard.widgets.<%= widgetName %>'
 };
 

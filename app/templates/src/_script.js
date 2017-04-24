@@ -7,9 +7,9 @@ angular.module('DevopsDashboard.widget.<%= widgetName %>', ['adf.provider'])
         title: '<%= widgetTitle %>',
         description: '<%= widgetDescription %>',
         authorizedGroups: <%= widgetGroups %>,
-        templateUrl: '{widgetsPath}/<%= widgetName %>/src/view.html',
+        templateUrl: 'app/widgets/<%= widgetName %>/src/view.html',
         edit: {
-          templateUrl: '{widgetsPath}/<%= widgetName %>/src/edit.html'
+          templateUrl: 'app/widgets/<%= widgetName %>/src/edit.html'
         }
       });
   });
