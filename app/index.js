@@ -110,7 +110,7 @@ module.exports = yeoman.generators.Base.extend({
       this.widgetName = props.widgetName;
       this.widgetTitle = props.widgetTitle;
       this.widgetDescription = props.widgetDescription;
-      this.widgetGroups = props.widgetGroups;
+      this.widgetGroups = "['" + props.widgetGroups.join("','") + "']";
 
       done();
     }.bind(this));
