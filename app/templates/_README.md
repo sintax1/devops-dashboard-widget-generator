@@ -1,4 +1,4 @@
-# adf-widget-<%= widgetName %>
+# devops-dashboard-widget-<%= widgetName %>
 
 <%= widgetName %> widget for the [devops-dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard).
 

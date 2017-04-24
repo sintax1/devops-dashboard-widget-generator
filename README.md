@@ -1,4 +1,4 @@
-# Yeoman generator for adf widgets
+# Yeoman generator for DevOps Dashboard widgets
 
 > Yeoman generator for [devops-dashboard](https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard) widgets.
 
