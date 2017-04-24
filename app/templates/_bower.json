@@ -1,7 +1,7 @@
 {
-  "name": "adf-widget-<%= widgetName %>",
+  "name": "devops-dashboard-widget-<%= widgetName %>",
   "version": "0.1.0",
-  "main": "dist/adf-widget-<%= widgetName %>.js",
+  "main": "dist/devops-dashboard-widget-<%= widgetName %>.js",
   "ignore": [
     "bower.json",
     ".bowerrc",
@@ -17,7 +17,8 @@
     "dashboard",
     "widget",
     "adf",
-    "adf-widget"
+    "adf-widget",
+    "devops-dashboard-widget"
   ],
   "description": "<%= widgetDescription %>",
   "dependencies": {

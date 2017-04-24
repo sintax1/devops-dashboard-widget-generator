@@ -14,7 +14,7 @@ module.exports = yeoman.generators.Base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the phenomenal ' + chalk.red('AdfWidget') + ' generator!'
+      'Welcome to the phenomenal ' + chalk.red('devops-dashboard widget') + ' generator!'
     ));
 
     var prompts = [{
@@ -39,12 +39,78 @@ module.exports = yeoman.generators.Base.extend({
         }
         return value;
       }
+   }, {
+      name: 'widgetGroups',
+      type: 'checkbox',
+      message: 'Which root9B domain groups should have access?',
+      choices: [{
+        name: 'Everyone',
+        value: 'root9b_all',
+        checked: true
+      }, {
+        name: 'root9B Business Operations',
+        value: 'root9B Business Operations',
+        checked: false
+      }, {
+        name: 'root9B Contracts',
+        value: 'root9B Contracts',
+        checked: false
+      }, {
+        name: 'root9B Cyber Operations',
+        value: 'root9B Cyber Operations',
+        checked: false
+      }, {
+        name: 'root9B DevOps',
+        value: 'root9B DevOps',
+        checked: false
+      }, {
+        name: 'root9B Emerging Technologies',
+        value: 'root9B Emerging Technologies',
+        checked: false
+      }, {
+        name: 'root9B Information Technology',
+        value: 'root9B Information Technology',
+        checked: false
+      }, {
+        name: 'root9B Leadership',
+        value: 'root9B Leadership',
+        checked: false
+      }, {
+        name: 'root9B Marketing',
+        value: 'root9B Marketing',
+        checked: false
+      }, {
+        name: 'root9B Network Defense Operations',
+        value: 'root9B Network Defense Operations',
+        checked: false
+      }, {
+        name: 'root9B Product Support',
+        value: 'root9B Product Support',
+        checked: false
+      }, {
+        name: 'root9B Sales',
+        value: 'root9B Sales',
+        checked: false
+      }, {
+        name: 'root9B Security',
+        value: 'root9B Security',
+        checked: false
+      }, {
+        name: 'root9B Threat Intelligence',
+        value: 'root9B Threat Intelligence',
+        checked: false
+      }, {
+        name: 'root9B Training',
+        value: 'root9B Training',
+        checked: false
+      }]
     }];
 
     this.prompt(prompts, function (props) {
       this.widgetName = props.widgetName;
       this.widgetTitle = props.widgetTitle;
       this.widgetDescription = props.widgetDescription;
+      this.widgetGroups = props.widgetGroups;
 
       done();
     }.bind(this));
@@ -55,7 +121,8 @@ module.exports = yeoman.generators.Base.extend({
       var ctx = {
         widgetName: this.widgetName,
         widgetTitle: this.widgetTitle,
-        widgetDescription: this.widgetDescription
+        widgetDescription: this.widgetDescription,
+        widgetGroups: this.widgetGroups
       };
       this.template('_README.md', 'README.md', ctx);
       this.template('_package.json', 'package.json', ctx);

@@ -1,11 +1,12 @@
 {
-  "name": "adf-widget-<%= widgetName %>",
+  "name": "devops-dashboard-widget-<%= widgetName %>",
   "version": "0.1.0",
   "keywords": [
     "dashboard",
     "widget",
     "adf",
-    "adf-widget"
+    "adf-widget",
+    "devops-dashboard-widget"
   ],
   "description": "<%= widgetDescription %>",
   "dependencies": {},

@@ -1,6 +1,6 @@
 # adf-widget-<%= widgetName %>
 
-<%= widgetName %> widget for the [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework).
+<%= widgetName %> widget for the [devops-dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard).
 
 ## Build
 
@@ -20,13 +20,13 @@ npm install
 bower install
 ```
 
-#### Build the adf-widget-<%= widgetName %>
+#### Build devops-dashboard-widget-<%= widgetName %>
 
 ```bash
 gulp
 ```
 
-The compiled and optimized files can be found in the dist directory.
+The compiled and optimized files can be found in the *dist* directory.
 
 #### Other build goals
 
@@ -38,14 +38,21 @@ Each goal can be used as a parameter for the gulp command.
 
 ## Usage
 
-Include the script in your index.html and be sure it is loaded after [angular](https://angularjs.org/) and after the [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework).
-
-```html
-<script type="text/javascript" src="path/to/<%= widgetName %>.min.js"></script>
+### Add your built widget to the DevOps Dashboard
+```bash
+cp -r devops-dashboard-widget-<%= widgetName %>/dist [devops-dashboard path]/src/app/widgets/devops-dashboard-widget-<%= widgetName %>
 ```
 
-Define a dependency for the module:
-
+### Update [devops-dashboard path]/src/app/widgets/widgets.module.js to load your new widget
 ```javascript
-angular.module('sample', ['adf', 'adf.widget.<%= widgetName %>']);
+(function () {
+  'use strict';
+
+  angular.module('DevopsDashboard.widgets', [
+    ...
+    'DevopsDashboard.widgets.<%= widgetName %>'
+    ...
+  ]);
+
+})();
 ```

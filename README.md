@@ -1,24 +1,24 @@
 # Yeoman generator for adf widgets
 
-> Yeoman generator for [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework) widgets.
+> Yeoman generator for [devops-dashboard](https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard) widgets.
 
 ## Usage
 
-Install `generator-adf-widget`:
+Install `devops-dashboard-widget-generator`:
 
 ```
-npm install -g generator-adf-widget
+npm install -g git+https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard-widget-generator.git
 ```
 
 Make a new directory, and `cd` into it:
 
 ```
-mkdir my-new-project && cd $_
+mkdir devops-dashboard-widget-[your project name] && cd $_
 ```
 
-Run `yo adf-widget`:
+Run `yo devops-dashboard-widget`:
 ```
-yo adf-widget
+yo devops-dashboard-widget
 ```
 
 Run `gulp` for building and `gulp serve` for preview
