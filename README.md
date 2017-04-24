@@ -4,10 +4,10 @@
 
 ## Usage
 
-Install `devops-dashboard-widget-generator`:
+Install `generator-devops-dashboard-widget`:
 
 ```
-npm install -g git+https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard-widget-generator.git
+npm install -g git+https://crig.koroscil@stash.secure.root9b.com/dev/generator-devops-dashboard-widget.git
 ```
 
 Make a new directory, and `cd` into it:
