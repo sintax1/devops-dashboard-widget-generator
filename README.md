@@ -17,6 +17,7 @@ mkdir devops-dashboard-widget-[your project name] && cd $_
 ```
 
 Run `yo devops-dashboard-widget`:
+
 ```
 yo devops-dashboard-widget
 ```
@@ -25,10 +26,27 @@ yo devops-dashboard-widget
 
 Run `gulp` for building and `gulp serve` for preview
 
+
 ## Distribution
 
-Pull the latest [DevOps Dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard/browse) source
-Add your widget to the DevOps Dashboard
+1. Pull the latest [DevOps Dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard/browse) source
+2. Add your widget to the DevOps Dashboard
+
+```
+devops-dashboard
+├── package.json
+└── src
+    ├── app
+    │   ├── app.js
+    │   └── widgets
+    │       ├── <b>mywidget</b>
+    │       │   ├── <b>edit.html</b>
+    │       │   ├── <b>mywidget.module.js</b>
+    │       │   └── <b>view.html</b>
+    │       └── widgets.module.js
+    ├── index.html
+    └── login.html
+```
 
 
 
