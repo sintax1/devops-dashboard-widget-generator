@@ -21,6 +21,8 @@ Run `yo devops-dashboard-widget`:
 yo devops-dashboard-widget
 ```
 
+![yo devops-dashboard-widget](/screenshots/yo.png?raw=true)
+
 Run `gulp` for building and `gulp serve` for preview
 
 ## Distribution
