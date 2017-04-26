@@ -2,21 +2,21 @@
 
 > Yeoman generator for [devops-dashboard](https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard) widgets.
 
-## Usage
+## Development Usage
 
-Install `generator-devops-dashboard-widget`:
+#### Install `generator-devops-dashboard-widget`:
 
 ```bash
 npm install -g git+https://crig.koroscil@stash.secure.root9b.com/dev/generator-devops-dashboard-widget.git
 ```
 
-Make a new directory, and `cd` into it:
+#### Make a new directory, and `cd` into it:
 
 ```
 mkdir devops-dashboard-widget-[your project name] && cd $_
 ```
 
-Run `yo devops-dashboard-widget`:
+#### Run `yo devops-dashboard-widget`:
 
 ```
 yo devops-dashboard-widget
@@ -24,30 +24,31 @@ yo devops-dashboard-widget
 
 ![yo devops-dashboard-widget](screenshots/yo.png)
 
-Run `gulp` for building and `gulp serve` for preview
+#### Run `gulp` for building and `gulp serve` for preview
 
 
-## Distribution
+## Deployment
 
 1. Pull the latest [DevOps Dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard/browse) source
 2. Add your widget to the DevOps Dashboard
 
-<pre>
-devops-dashboard
-├── package.json
-└── src
-    ├── app
-    │   ├── app.js
-    │   └── widgets
-    │       ├── <b>mywidget</b>
-    │       │   ├── <b>edit.html</b>
-    │       │   ├── <b>mywidget.module.js</b>
-    │       │   └── <b>view.html</b>
-    │       └── widgets.module.js
-    ├── index.html
-    └── login.html
-</pre>
+    <pre>
+    devops-dashboard
+    ├── package.json
+    └── src
+        ├── app
+        │   ├── app.js
+        │   └── widgets
+        │       ├── <b>mywidget</b>
+        │       │   ├── <b>edit.html</b>
+        │       │   ├── <b>mywidget.module.js</b>
+        │       │   └── <b>view.html</b>
+        │       └── widgets.module.js
+        ├── index.html
+        └── login.html
+    </pre>
 
+3. 
 
 
 ## License
