@@ -3,8 +3,7 @@
 > Yeoman generator for [devops-dashboard](https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard) widgets.
 
 
-
-## Development Usage
+## Usage
 
 * Install `generator-devops-dashboard-widget`:
 
@@ -12,15 +11,11 @@
 npm install -g git+https://crig.koroscil@stash.secure.root9b.com/dev/generator-devops-dashboard-widget.git
 ```
 
-
-
 * Make a new directory, and `cd` into it:
 
 ```
 mkdir devops-dashboard-widget-[your project name] && cd $_
 ```
-
-
 
 * Run `yo devops-dashboard-widget`:
 
@@ -31,12 +26,10 @@ yo devops-dashboard-widget
 ![yo devops-dashboard-widget](screenshots/yo.png)
 
 
-
 * Run `gulp` for building and `gulp serve` for preview
 
 
-
-## Deployment
+## Deploy your widget
 
 After you are done developing your widget, commit your code to the DevOps Dashboard
 
