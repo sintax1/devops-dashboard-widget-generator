@@ -2,6 +2,13 @@
 
 > Yeoman generator for [devops-dashboard](https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard) widgets.
 
+## Dependencies
+
+You must have the following installed to use this generator
+
+* [npm](https://www.npmjs.com/)
+* [yeoman](http://yeoman.io/)
+
 
 ## Usage
 
