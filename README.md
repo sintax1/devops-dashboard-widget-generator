@@ -6,7 +6,7 @@
 
 Install `generator-devops-dashboard-widget`:
 
-```
+```bash
 npm install -g git+https://crig.koroscil@stash.secure.root9b.com/dev/generator-devops-dashboard-widget.git
 ```
 
@@ -22,6 +22,13 @@ yo devops-dashboard-widget
 ```
 
 Run `gulp` for building and `gulp serve` for preview
+
+## Distribution
+
+Pull the latest [DevOps Dashboard]() source
+Add your widget to the DevOps Dashboard
+
+
 
 ## License
 
