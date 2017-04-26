@@ -32,7 +32,7 @@ Run `gulp` for building and `gulp serve` for preview
 1. Pull the latest [DevOps Dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard/browse) source
 2. Add your widget to the DevOps Dashboard
 
-```
+<pre>
 devops-dashboard
 ├── package.json
 └── src
@@ -46,7 +46,7 @@ devops-dashboard
     │       └── widgets.module.js
     ├── index.html
     └── login.html
-```
+</pre>
 
 
 
