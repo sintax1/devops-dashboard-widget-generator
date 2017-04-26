@@ -2,35 +2,41 @@
 
 > Yeoman generator for [devops-dashboard](https://crig.koroscil@stash.secure.root9b.com/dev/devops-dashboard) widgets.
 
+
 ## Development Usage
 
-#### Install `generator-devops-dashboard-widget`:
+Install `generator-devops-dashboard-widget`:
 
 ```bash
 npm install -g git+https://crig.koroscil@stash.secure.root9b.com/dev/generator-devops-dashboard-widget.git
 ```
 
-#### Make a new directory, and `cd` into it:
+
+Make a new directory, and `cd` into it:
 
 ```
 mkdir devops-dashboard-widget-[your project name] && cd $_
 ```
 
-#### Run `yo devops-dashboard-widget`:
+
+Run `yo devops-dashboard-widget`:
 
 ```
 yo devops-dashboard-widget
 ```
 
+
 ![yo devops-dashboard-widget](screenshots/yo.png)
 
-#### Run `gulp` for building and `gulp serve` for preview
+Run `gulp` for building and `gulp serve` for preview
 
 
 ## Deployment
 
-1. Pull the latest [DevOps Dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard/browse) source
-2. Add your widget to the DevOps Dashboard
+After you are done developing your widget, commit your code 
+
+1. Create a [feature Branch](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) on the [DevOps Dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard/browse)
+2. Add your widget (release files only) to the DevOps Dashboard:
 
     <pre>
     devops-dashboard
@@ -48,7 +54,8 @@ yo devops-dashboard-widget
         └── login.html
     </pre>
 
-3. 
+3. Commit your code
+4. Submit a pull request
 
 
 ## License
