@@ -25,7 +25,7 @@ Run `gulp` for building and `gulp serve` for preview
 
 ## Distribution
 
-Pull the latest [DevOps Dashboard]() source
+Pull the latest [DevOps Dashboard](https://stash.secure.root9b.com/projects/DEV/repos/devops-dashboard/browse) source
 Add your widget to the DevOps Dashboard
 
 
