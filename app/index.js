@@ -45,7 +45,7 @@ module.exports = yeoman.generators.Base.extend({
       message: 'Which root9B domain groups should have access?',
       choices: [{
         name: 'Everyone',
-        value: 'root9b_all',
+        value: 'root9B root9b_all',
         checked: true
       }, {
         name: 'root9B Business Operations',

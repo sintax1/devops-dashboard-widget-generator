@@ -15,7 +15,7 @@ var annotateOptions = {
 
 var templateOptions = {
   root: 'app/widgets/<%= widgetName %>/src',
-  module: 'DevopsDashboard.widgets.<%= widgetName %>'
+  module: 'DevopsDashboard.widget.<%= widgetName %>'
 };
 
 /** lint **/
