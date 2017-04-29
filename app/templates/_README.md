@@ -50,7 +50,7 @@ cp -r devops-dashboard-widget-<%= widgetName %>/dist [devops-dashboard path]/src
 
   angular.module('DevopsDashboard.widgets', [
     ...
-    'DevopsDashboard.widgets.<%= widgetName %>'
+    'DevopsDashboard.widget.<%= widgetName %>'
     ...
   ]);
 
